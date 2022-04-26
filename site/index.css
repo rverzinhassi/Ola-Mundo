@@ -58,3 +58,50 @@ header {
 #tag {
     color: #449ABA;
 }
+#barra-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: right;
+    color: #cccccc8f;    
+    height: 500px;
+    width: 30px;
+    padding: 5px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    height: 500px;
+    width: 30px;
+}
+.insta:hover:hover {
+    width: 40px;
+}
+.linkedin:hover:hover {
+    width: 40px;
+}
+.github:hover:hover {
+    width: 40px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+}
+.banner-texto {
+    color: #FFCC15;
+    font-size: 36pt;
+    padding: 50px;
+    text-align: right;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0071cc;
+    color: #fff;
+    padding: 5px;
+}
