@@ -1,7 +1,10 @@
-let barraLateral = document.getElementById('barra-lateral')
+const btnHamburguer = document.getElementById('btn-hamburguer');
 
-function contadorLinhas() {
-    for (let i = 1; i <= 22; i++) {
-        barraLateral.innerHTML += `<p>${i}</p>`
-    }
+function toggleMenu(event) {
+    if (event.type === 'touchstart') event.preventDefault();
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('active');
 }
+
+btnHamburguer.addEventListener('click', toggleMenu);
+btnHamburguer.addEventListener('touchstart', toggleMenu);
